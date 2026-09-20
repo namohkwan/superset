@@ -66,7 +66,6 @@ def format_timedelta(time_delta: timedelta) -> str:
     if time_delta < timedelta(0):
         return "-" + str(abs(time_delta))
 
-    # Change this to format positive time deltas the way you want
     return str(time_delta)
 
 
